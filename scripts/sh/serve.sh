@@ -1,4 +1,6 @@
-#!/usr/bin/env -S bash -x
+#!/usr/bin/env bash
 
-### retype start
+### ensure our context is always the repo home
+cd $(dirname "$0")
+cd ../../
 dotnet tool run retype start
