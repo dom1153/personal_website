@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dom1153.github.io/personal_website/sitemap.xml.gz
