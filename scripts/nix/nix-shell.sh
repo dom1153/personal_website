@@ -3,5 +3,5 @@
 
 ### ensure our context is always the repo home
 cd $(dirname "$0")
-cd ../../
+cd ../
 nix develop
