@@ -1,0 +1,63 @@
+Personalized docs
+
+---
+
+# Colors
+
+
+light color theme: (default)
+  https://coolors.co/fbfefb-282728-006cac-e6e6e6-cdcdcd-ece9e9
+
+dark color scheme: (default)
+  https://coolors.co/212737-eaedf3-ff6b01-343f60-8a3302-ab4b08
+
+colors:
+  https://coolors.co/f9fafb-1c9a9a-007a7a-004d4d-eff3f3-1d2a35-57dcb4-05ce91-00835b-22323f
+
+decided palette:
+  https://coolors.co/1d2a35-57dcb4-eaedf3-00835b-05ce91-22323f
+
+---
+
+# Tree
+
+VVV Trees generated here: https://tree.nathanfriend.io/
+
+```
+/
+  public/
+    toggle-theme.js -- set dark mode default
+  src/
+    components/
+    content/
+      blog/
+        default/
+          example-files.md
+    layouts/
+    pages/
+      index.astro
+    styles/
+      base.css -- theme colors
+    utils/
+    config.ts -- site metadata (+ remove light mode toggle)
+```
+
+```bash
+/
+├── public/
+│   └── toggle-theme.js -- set dark mode default
+└── src/
+    ├── components/
+    ├── content/
+    │   └── blog/
+    │       └── default/
+    │           └── example-files.md
+    ├── layouts/
+    ├── pages/
+    │   └── index.astro
+    ├── styles/
+    │   └── base.css -- theme colors
+    ├── utils/
+    └── config.ts -- site metadata (+ remove light mode toggle)
+```
+

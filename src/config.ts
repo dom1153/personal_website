@@ -7,7 +7,7 @@ export const SITE: Site = {
   desc: "Personal website of Dominic Dang.", // TODO: use a better headline
   title: "domdang.info",
   ogImage: "astropaper-og.jpg",
-  lightAndDarkMode: true,
+  lightAndDarkMode: false,
   postPerIndex: 1, // # of posts on landing page
   postPerPage: 3, // how many posts show up per pagination /posts
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes

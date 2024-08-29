@@ -12,14 +12,23 @@
     --color-card-muted: 205, 205, 205;
     --color-border: 236, 233, 233;
   }
-  html[data-theme="dark"] {
-    --color-fill: 33, 39, 55;
+  /* html[data-theme="dark"] {
+    --color-fill: 44, 44, 81;
     --color-text-base: 234, 237, 243;
-    --color-accent: 255, 107, 1;
-    --color-card: 52, 63, 96;
-    --color-card-muted: 138, 51, 2;
-    --color-border: 171, 75, 8;
+    --color-accent: 109, 169, 176;
+    --color-card: 44, 44, 81;
+    --color-card-muted: 0, 65, 77;
+    --color-border: 8, 112, 120;
+  } */
+  html[data-theme="dark"] {
+    --color-fill: 29, 42, 53;
+    --color-accent: 87, 220, 180;
+    --color-text-base: 234, 237, 243;
+    --color-card: 34, 50, 63;
+    --color-card-muted: 0, 131, 91;
+    --color-border: 5, 206, 145;
   }
+
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;
